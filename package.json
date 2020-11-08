@@ -1,0 +1,25 @@
+{
+  "name": "sorteio-topicos-circuitos-logicos",
+  "version": "1.0.0",
+  "description": "Sorteio para topicos do trabalho de Circuitos Logicos II. Usa Chainlink VRF para gerar numeros verificadamente aleatorios.",
+  "main": "index.js",
+  "repository": "git@github.com:andrekorol/sorteio-topicos-circuitos-logicos.git",
+  "author": "andrekorol <anrobits@yahoo.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "@chainlink/contracts": "^0.0.11",
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "truffle": "^5.1.52",
+    "truffle-flattener": "^1.5.0"
+  }
+}
